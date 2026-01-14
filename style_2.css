@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #180461;
+    color: white;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 22px;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+nav ul { list-style: none; }
+
+.gameContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 9vw);
+    grid-template-columns: repeat(3, 9vw);
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(68, 141, 201, 0.2);
+    overflow: hidden;
+}
+
+.box {
+    border: 1px solid #ccc;
+    font-size: 7vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box:hover {
+    background-color: #f3e5f5;
+}
+
+.box_text {
+    transition: transform 0.2s ease;
+}
+
+.info {
+    font-size: 22px;
+    font-family: "Baloo Bhai 2";
+}
+
+.gameInfo {
+    padding: 0 20px;
+    max-width: 250px;
+}
+
+.gameInfo h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.statusRow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#reset {
+    padding: 8px 20px;
+    color: white;
+    background-color: #0e0f5b;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+#reset:hover {
+    background-color: #1e84aa;
+}
+
+.imgBox img {
+    width: 0;
+    margin-top: 20px;
+    transition: width 0.8s ease-in-out;
+}
+
+.line {
+    position: absolute;
+    height: 5px;
+    width: 0;
+    background-color: #220fb3;
+    transition: width 0.5s ease-in-out, transform 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+/* Mobile */
+@media screen and (max-width: 900px) {
+    .container {
+        grid-template-rows: repeat(3, 22vw);
+        grid-template-columns: repeat(3, 22vw);
+    }
+    .box {
+        font-size: 17vw;
+    }
+}
