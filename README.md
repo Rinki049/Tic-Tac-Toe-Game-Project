@@ -3,9 +3,11 @@
 A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScript**.
 
 🔗 **Live Demo:** https://rinki049.github.io/Tic-Tac-Toe-Game-Project/
+
+
 📂 **Repository:** https://github.com/Rinki049/Tic-Tac-Toe-Game-Project
 
----
+
 
 ## Features
 
@@ -15,7 +17,7 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 *  Restart game functionality
 *  Winner detection logic
 
----
+
 
 ##  Technologies Used
 
@@ -23,7 +25,7 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 * CSS3
 * JavaScript 
 
----
+
 
 ## 📁 Project Structure
 
@@ -37,7 +39,7 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 ├── exited_2.gif
 ```
 
----
+
 
 ##  How to Run Locally
 
@@ -49,6 +51,6 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 2. Open the folder
 3. Run `index.html` in your browser
 
----
+
 
 
